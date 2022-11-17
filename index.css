@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+   
+    width: 260px;
+    margin: 15px auto;
+    padding: 20px 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.logo{
+    width: 80px;
+}
+
+.user-img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+hr{
+    color: #7C7C7C;
+    border-radius: 5px;
+    
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.name, .location{
+    margin: 0;
+}
+
+.name{
+    font-weight: 900;
+}
+
+.two{
+    margin-right: 10px;
+}
+
+.main-body{
+    margin-top: 20px;
+}
+
+.main-img{
+    
+    width: 100%;
+}
+.icon{
+    margin-top: 10px;
+    padding-left: 0px;
+    
+}
+
+.icons{
+    width: 20px;
+    margin-right: 2px;
+}
+
+#likes, 
+#comments{
+    font-size: 14px;
+    margin: 10px 0px
+   
+}
+
+#likes{
+    font-weight: bold;
+}
+
+#user-id{
+    font-weight: bold;
+}
+
+.icons:hover,
+.icons:focus {
+    opacity: 0.5
+}
+
+.rand-id{
+    font-weight: bold;
+
+}
+
+
